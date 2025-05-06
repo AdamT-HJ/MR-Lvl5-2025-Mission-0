@@ -1,0 +1,17 @@
+.homepageMain {
+    
+    min-height: 100vh;
+    width: 100%;
+}
+
+.articleCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.articleCardsContainer img {
+    width: 350px;
+}
+

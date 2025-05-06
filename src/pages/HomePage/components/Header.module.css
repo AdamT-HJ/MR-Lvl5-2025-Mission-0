@@ -1,0 +1,23 @@
+
+
+.headerBar {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+}
+
+.logoBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.linksBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.loginButtonBox {
+    display: flex;
+    flex-direction: row;
+}
+
