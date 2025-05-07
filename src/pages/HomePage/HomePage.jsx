@@ -20,6 +20,7 @@ export default function HomePage() {
                     <ArticleCard key={card.id} articleImage={card.image} articleImageDesc={card.imageText} articleTitle={card.title} articleDescription={card.description}  />
                 ))}
             </section>
+            
         </main>
     
     </>

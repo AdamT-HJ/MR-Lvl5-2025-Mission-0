@@ -10,13 +10,13 @@ export default function Header() {
         
         <div className={styles.logoBox}>
             <img src={maLogo} alt="Marketing Association Logo" />
-            <div>Marketing Association </div>
+            <div>Marketing Association NZ </div>
         </div>
 
         <div className={styles.linksBox}>
             <div>Signup For Newsletter</div>
             <div>Create MA Login</div>
-            <div>Become A MA Member</div>
+            <div>MA Membership</div>
         </div>
 
         <div className={styles.loginButtonBox}>

@@ -1,17 +1,47 @@
+* {
+ font-family: sans-serif;   
+}
+
+
 .homepageMain {
-    
     min-height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
 .articleCardsContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 100px;
     padding: 20px;
+    margin: 50px;
 }
 
 .articleCardsContainer img {
     width: 350px;
 }
 
+
+/* Media Queries */
+
+@media screen and (min-width: 1025px ) {
+    /* .mainBox {
+        min-height: 550px;
+        background-size: cover;
+        background-position: 100% 38%;
+    } */
+}
+
+@media screen and (min-width: 577px) and (max-width: 1024px) {
+    /* .mainBox {
+        min-height: 400px;
+    } */
+}
+
+@media screen and (max-width: 576px) {
+    .homepageMain {
+        font-size: 16px;
+        
+        
+    }
+}

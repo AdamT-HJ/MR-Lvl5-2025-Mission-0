@@ -1,23 +1,86 @@
 
-
 .headerBar {
     display: flex;
     flex-direction: row;
     width: 99vw;
+    height: 6vh;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .logoBox {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    width: 60%;
+    gap: 5px;
+}
+
+.logoBox img {
+    width: 50px;
+    height: 95%;
 }
 
 .linksBox {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 35%;
+    gap: 4%;
 }
 
 .loginButtonBox {
     display: flex;
     flex-direction: row;
+    width: 8%;
+    justify-content: center;
+    align-items: center;
 }
+
+.loginButtonBox button {
+    width: 80%;
+    height: 60%;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(245 24 14);
+    border-style: none;
+}
+
+
+
+
+
+
+/*----------------------- BREAKPOINTS ------------------------ */
+@media screen and (min-width: 577px) and (max-width: 1300px) {
+    .headerBar {
+        font-size: 12px;
+    }
+
+    .logoBox {
+        width: 30%;
+    }
+
+    .linksBox {
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    .loginButtonBox {
+        display: flex;
+        flex-direction: row;
+        width: 15%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .loginButtonBox button {
+        width: 65%;
+        height: 40%;
+    }
+
+}
+
 
