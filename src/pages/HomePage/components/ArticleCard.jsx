@@ -7,9 +7,10 @@ export default function ArticleCard({articleImage, articleImageDesc, articleTitl
   return (
     <div className={styles.card}>
         <img src={articleImage} alt={articleImageDesc} />
-        <div>{articleTitle}</div>
-        <div>{articleDescription}</div>
-
+        <div className={styles.articleTextbox}>
+          <div className={styles.title}>{articleTitle}</div>
+          <div className={styles.desc}>{articleDescription}</div> 
+        </div>       
     </div>
   )
 }

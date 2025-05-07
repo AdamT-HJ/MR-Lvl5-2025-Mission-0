@@ -1,0 +1,26 @@
+
+.card {
+    box-shadow: rgba(100, 100, 111, 0.848) 0px 7px 29px 0px;
+    
+}
+
+
+.articleTextbox {
+    height: 15vh;  
+}
+
+.title {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: calc(12px + 1vh);
+    
+       
+}
+
+.desc {
+    padding-left: 15px;
+    font-size: calc(8px + 1vh);
+}
+

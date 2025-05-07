@@ -40,6 +40,7 @@
 
     .searchBarBox input {
         width: 88%;
+        border-style: none;
     }
 
     .searchBarBox button {
@@ -77,6 +78,7 @@
 
     .searchBarBox input {
         width: 50vw;
+        border-style: none;
     }
 
     .searchBarBox button {

@@ -1,7 +1,7 @@
 import buildingBlocksImage from '../assets/Home/building_blocks_article.jpg'
 import googleAdsImage from '../assets/Home/google_ads_article.jpg'
 import seminarImage from '../assets/Home/seminar_article.jpg'
-import studentEventImage from '../assets/Home/student_event_article.jpg'
+import studentEventImage from '../assets/Home/student_event_article.png'
 import aiMarketingImage from '../assets/Home/ai_marketing_article.webp'
 import writingImage from '../assets/Home/writing_article.jpg'
 
