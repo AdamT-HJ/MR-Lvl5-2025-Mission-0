@@ -48,7 +48,9 @@
     border-style: none;
 }
 
-
+.mobileMenu {
+    display: none;
+}
 
 
 
@@ -83,4 +85,24 @@
 
 }
 
+@media screen and (max-width: 576px) {
+    
+    .linksBox {
+        display: none;
+    }
+
+    .loginButtonBox {
+        display: none;
+    }
+
+    .mobileMenu {
+        display:block;
+        width: 14%;
+        height: 6vh;
+    }
+
+    .logoBox {
+        width: 90%;
+    }
+}
 

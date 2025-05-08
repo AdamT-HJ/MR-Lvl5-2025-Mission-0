@@ -3,6 +3,9 @@ import styles from './Header.module.css'
 
 import maLogo from '../../../assets/Home/MA_Logo.webp'
 
+import MobileMenu from './MobileMenu'
+
+
 export default function Header() {
   return (
     <>
@@ -23,6 +26,10 @@ export default function Header() {
             <button>Login</button>
         </div>
 
+        <div className={styles.mobileMenu}>
+          <MobileMenu />
+        </div>
+        
       </main>  
     
     

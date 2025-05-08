@@ -38,7 +38,7 @@
 @media screen and (min-width: 1025px ) {
     .articleCardsContainer {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
         gap: 150px;
         padding: 20px;
         margin: 50px;

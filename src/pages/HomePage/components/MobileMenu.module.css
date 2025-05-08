@@ -1,0 +1,101 @@
+
+.headerBar {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    height: 6vh;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hamburgerButton {
+    height: 6vh;
+    width: 11%;
+    border-style: none;
+    
+}
+
+.hamburgerIcon {
+    height: 5.5vh;
+    width: 100%;
+    border-style: none;
+    color: black;
+}
+
+.mobileMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    height: 60vh;
+    z-index: 100;
+    top: 6vh;
+    right: 0;
+    
+}
+
+.logoBox {
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 48px;
+    
+}
+
+.logoBox img {
+    width: 20vw;
+    height: 20vw;
+}
+
+.linksBox {
+    margin-left: 30px;
+    color: white;
+}
+
+.link {
+    display: flex;
+    gap: 10px;
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.loginButtonBox {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 30vw;
+}
+
+.loginButtonBox button {
+    width: 30vw;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(245 24 14);
+} 
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 100;
+}
+
+.closeButton {
+    margin-right: 30px;
+    align-self: flex-end;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
+    color: rgb(252, 253, 254);
+    margin-top: 10px;
+    background-color: rgb(6, 0, 0);
+    border-style: none;
+}

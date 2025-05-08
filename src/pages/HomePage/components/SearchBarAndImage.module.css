@@ -107,14 +107,16 @@
     .textBox {
         background-color: black;
         font-weight: bold;
-        width: 80%;
+        width: 82%;
+        
+
     }
 
     .searchBarBox {
         display: flex;
         flex-direction: column;
         gap: 5px;
-        width: 80%;
+        width: 82%;
     }
 
     .searchBarBox input, button {
